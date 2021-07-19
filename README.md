@@ -21,6 +21,8 @@ Resource used in the Project :
 
 ![alt text](./screenshots/Screen1.PNG)
 
+![alt text](./screenshots/Screen2.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
