@@ -19,7 +19,7 @@ Resource used in the Project :
 
 ## ScreenShots
 
-![alt text]('/screenshots/Screen1.PNG')
+![alt text](./screenshots/Screen1.PNG)
 
 ## Available Scripts
 
