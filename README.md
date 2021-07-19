@@ -16,6 +16,11 @@ Resource used in the Project :
 1. Montserrat -  Google Fonts
 2. React icons - Feather icons 
 
+
+## ScreenShots
+
+![alt text]('\src\screenshots\Screen1.PNG')
+
 ## Available Scripts
 
 In the project directory, you can run:
