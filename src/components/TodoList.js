@@ -38,7 +38,7 @@ export default function TodoList({ data, handleDoneTodo, handleEditTodo, handleD
                                  <button id={todo.id} onClick={() => handleDoneTodo(todo, updateTitle)} className="todo_done"><FiCheck size="1.2rem" color="#3D6FEE" /></button> 
                                  :  
                                  <button id={todo.id} onClick={() => handleEditTodo(todo)} className="todo_edit"><FiEdit2 size="1.2rem" color="#3D6FEE" /></button> }
-                                <button onClick={() => handleDeleteTodo(todo.id)} id={todo.id} className="todo_delete"><FiTrash size="1.2rem" color="#FF7979" /></button>
+                                 {todo.isEditing ? null : <button onClick={() => handleDeleteTodo(todo.id)} id={todo.id} className="todo_delete"><FiTrash size="1.2rem" color="#FF7979" /></button>}
                             </div>
                         </div>
                     </div>
